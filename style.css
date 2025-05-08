@@ -148,3 +148,112 @@ header nav a:hover {
   .social-icons a:hover {
     color: black;
   }
+
+
+
+
+  
+    .container {
+        display: flex;
+        min-height: 100vh;
+        background: #f5faff;
+    }
+  .sidebar {
+    width: 200px;
+    background: #0645AD;
+    color: white;
+    padding-top: 20px;
+    
+  }
+  .sidebar h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sidebar a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    border-left: 4px solid transparent;
+  }
+  .sidebar a.active, .sidebar a:hover {
+    background: #033E8C;
+    border-left: 4px solid white;
+  }
+
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  .topbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .topbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .searchbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  .searchbar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+  }
+  .searchbar i {
+    color: #555;
+  }
+
+  .content {
+    padding: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background: #0645AD;
+    color: white;
+  }
+  td:last-child i {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #0645AD;
+  }
+  td:last-child i:hover {
+    color: #022b73;
+  }
+
